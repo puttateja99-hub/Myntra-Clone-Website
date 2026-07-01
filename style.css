@@ -1,0 +1,356 @@
+.logo{
+    width: 120px;
+    height: 60px;
+    
+    
+}
+nav {
+    display: flex;
+    align-items: center;
+    font-family: 'roberto', sans-serif;
+    font-size: 13px;
+    font-weight: bolder;
+    text-transform: uppercase;   
+}
+.navbar{
+    height: 70px;
+    max-width: 1600px;
+    margin: 0px;
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,.05);
+    border-bottom: 1px solid #eaeaec;
+    
+    
+}
+.dashboard{
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    margin-left: -35px;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    
+    
+}
+.search-bar{
+    width: 300px;
+    height: 36px;
+    border: none;
+    outline: none;
+    background-color: #f5f5f6;
+    border-radius: 4px;
+    padding-left: 55px;
+    font-size: 16px;
+    color: #282c3f;
+    font-family: 'Times New Roman', Times, serif;
+    
+}.navbar-right{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.search-container i {
+    position:absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: grey;
+    padding-bottom: 10px;
+}
+.search-container{
+    position: relative;
+    padding-bottom: 10px;
+}
+.navbar-right{
+    margin-left: 40px;
+    
+}
+.user-icons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 25px;
+    padding-right: 18px;
+    font-size: smaller;
+    padding-bottom: 10px;
+}
+.user-icons span{
+    font-family: "roberto", sans-serif;
+    font-size: 12px;
+    text-transform: none;
+    
+    
+}
+.user-profile i{
+    padding-left: 11px;
+}
+.user-wishlist i{
+    padding-left: 17px;
+}
+.user-icons i{
+    font-size: 16px;
+}
+.studio-new{
+    position: relative;
+}
+
+.studio-new span{
+    position: absolute;
+    top: -5px;
+    right: -28px;
+    color: #ff3f6c;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.men{
+    position: relative;
+}
+.women{
+    position: relative;
+}
+.kids{
+    position: relative;
+}
+.home{
+    position: relative;
+}
+.beauty{
+    position: relative;
+}
+.genz{
+    position: relative;
+}
+.studio-new{
+    position: relative;
+}
+
+.men:hover::after{
+    
+    content: "";
+    position: absolute;
+    left: -10px;
+    bottom: -30px;
+    width: 180%;
+    height: 4px;
+    background-color: #ff3f6c;
+}
+.women:hover::after{
+    
+    content: "";
+    position: absolute;
+    left: -15px;
+    bottom: -30px;
+    width: 170%;
+    height: 4px;
+    background-color: #f23aca;
+}
+.kids:hover::after{
+    
+    content: "";
+    position: absolute;
+    left: -10px;
+    bottom: -30px;
+    width: 180%;
+    height: 4px;
+    background-color: orangered;
+}
+.home:hover::after{
+    
+    content: "";
+    position: absolute;
+    left: -10px;
+    bottom: -30px;
+    width: 170%;
+    height: 4px;
+    background-color: rgb(204, 204, 4);
+}
+.beauty:hover::after{
+    
+    content: "";
+    position: absolute;
+    left: -15px;
+    bottom: -30px;
+    width: 170%;
+    height: 4px;
+    background-color: #0DB7AF;
+}
+.genz:hover::after{
+    
+    content: "";
+    position: absolute;
+    left: -10px;
+    bottom: -30px;
+    width: 170%;
+    height: 4px;
+    background-color: #0DB7AF;
+}
+.studio-new:hover::after{
+    
+    content: "";
+    position: absolute;
+    left: -12px;
+    bottom: -30px;
+    width: 180%;
+    height: 4px;
+    background-color: #ff3f6c;
+}
+.mynsave{
+    width: 1125px;
+    padding-left: 68px;
+}
+.slider{
+    width: 1360;
+    
+    margin: 0px;
+    position: relative;
+}
+.slides{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.slide{
+    width: 100%;
+    display: none;
+}
+.slide.active{
+    display: block;
+}
+.dots{
+    text-align: center;
+    margin-top: 15px;
+    
+}
+.dots:hover{
+    cursor: pointer;
+}
+.dot{
+    height: 10px;
+    width: 10px;
+    background-color: gray;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 5px;
+}
+.dot.active{
+    background-color: black;
+}
+
+.BankVid{
+    width: 100%;
+    height: auto;
+    display: block;
+    
+}
+.h2{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-left: 28px;
+    font-family:  "Poppins", sans-serif;
+    font-weight: 600;
+    letter-spacing: 6px;
+    color: rgb(63, 61, 61);
+}
+
+
+.Grid-Card{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    padding: 20px;   
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.last-row-card{
+    display: flex;
+    justify-content: center;  
+}
+.last-row-card .card{
+    width: 250px;   /* adjust as needed */
+    margin-top: -20px;
+}
+.rights{
+    text-align: center;
+    padding: 25px;
+    margin: 10px;
+    box-shadow: rgba(0 0 0 / 24%) 0px 3px 8px;
+}
+.slider img,
+.bankingVid img,
+.card img{
+    width:100%;
+    height:auto;
+}
+
+@media (max-width: 768px){
+    .h2 h2{
+       font-size:22px;
+       letter-spacing:2px;
+       padding-left: 12px;
+   }
+    .Grid-Card{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .card{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card img {
+        width: 100%;
+        height: 160px;
+        object-fit: cover;
+    }
+    .card p {
+        text-align: center;
+        margin-top: auto;
+        padding: 8px 10px;
+        font-size: 14px;
+        line-height: 1.4 ;
+    }
+
+    .navbar{
+        flex-wrap: wrap;
+    }
+    .dashboard{
+    gap: 10px;
+    font-size:10px;
+    }
+    .navbar-right{
+    margin-left:0;
+    }
+    .search-bar{
+        width:120px;
+        font-size:12px;
+        padding-left:35px;
+    }
+    
+    .rights{
+        text-align: center;
+        font-size: 13px;
+        padding: 15px 10px;
+    }
+    .mynsave{
+        width:100%;
+        padding-left:0;
+        display:block;
+    }
+    .maincontext{
+        width:100%;
+        overflow:hidden;
+        margin-top: 65px;
+        margin-bottom: auto;
+    }
+
+   
+}
